@@ -1,21 +1,23 @@
 
- html, body ,h1{
+ html, body {
                 overflow: hidden;
                 margin: 0;
                 padding:0;
+  height: 150%;width: 100%;
             }
         body{
                 font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
                 color: #333;
                 background:url(../img/bg.gif)  no-repeat;
-                background-size: cover;
-               -webkit-background-size: cover;
-               -moz-background-size: cover;
-               -o-background-size: cover;
-               -ms-background-size: cover;
+          background-size:100% 100%;
+                
                  
             }
-
+         h1{
+                overflow: hidden;
+                margin: 0;
+                padding:0;
+            }
         #pms{
             position: absolute;
             left: 0;
